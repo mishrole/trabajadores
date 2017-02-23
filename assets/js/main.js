@@ -4,12 +4,12 @@ var trabajadores = [{ nombre : "Arabela", apellido : "Rojas", rol : "T.A", cumpl
 { nombre : "Papu", apellido : "Rivariola", rol : "Psicóloga", cumpleanios : "10 de octubre" },
 { nombre : "Gian", apellido : "Corzo", rol : "Profesor", cumpleanios : "23 de enero" } ]
 
-var datos = document.getElementById("datos");
+var info = document.getElementById("info");
 
-datos.innerHTML= "";
+info.innerHTML= "";
 
   trabajadores.forEach(function(element){
-  datos.innerHTML += "<div><ul><li>" + "Nombre: " + element.nombre + "</li>"+
+  info.innerHTML += "<div><ul><li>" + "Nombre: " + element.nombre + "</li>"+
                               "<li>" + "Apellido: " + element.apellido + "</li>"+
                               "<li>" + "Rol: " + element.rol + "</li>"+
                               "<li>" + "Cumpleaños: " + element.cumpleanios + "</li></ul></div>";
