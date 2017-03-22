@@ -10,13 +10,11 @@ info.innerHTML= "";
 
 trabajadores.forEach(function(element){
 
-	info.innerHTML += "<div>
-  						<ul>
-  							<li>" + "Nombre: " + element.nombre + "</li>"+
-                           "<li>" + "Apellido: " + element.apellido + "</li>"+
-                           "<li>" + "Rol: " + element.rol + "</li>"+
-                           "<li>" + "Cumpleaños: " + element.cumpleanios + "</li>
-                        </ul>
-                   	 </div>";
+	info.innerHTML += "<div><ul><li>" +
+						"Nombre: " + element.nombre + "</li>"+
+						"<li>" + "Apellido: " + element.apellido + "</li>"+
+						"<li>" + "Rol: " + element.rol + "</li>"+
+						"<li>" + "Cumpleaños: " + element.cumpleanios +
+						"</li></ul></div>";
                    	 
 });
